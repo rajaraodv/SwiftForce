@@ -8,8 +8,6 @@
 
 import UIKit
 
-
-
 class RootVC: UITableViewController,SFRestDelegate {
     
     var dataRows = NSArray()

@@ -3,6 +3,4 @@
 //
 
 #import "SFRestAPI.h"
-
-#import <SalesforceNativeSDK/SFRestAPI.h>
-#import <SalesforceNativeSDK/SFRestRequest.h>
+#import "SFRestRequest.h"
