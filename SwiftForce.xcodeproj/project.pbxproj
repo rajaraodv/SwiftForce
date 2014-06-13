@@ -48,7 +48,6 @@
 
 /* Begin PBXFileReference section */
 		2EA69C151949616A00DE086C /* RootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
-		2EA69C17194B5AA900DE086C /* SwiftForce-Bridging-Header1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SwiftForce-Bridging-Header1.h"; path = "../SwiftForce-Bridging-Header1.h"; sourceTree = "<group>"; };
 		2EEE8DEA19495FE8001106FE /* SwiftForce-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftForce-Bridging-Header.h"; sourceTree = "<group>"; };
 		2EEE8DEB19495FE9001106FE /* InitialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialVC.swift; sourceTree = "<group>"; };
 		4F3F412517E7C9CA008B3283 /* MKNetworkEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKNetworkEngine.h; sourceTree = "<group>"; };
@@ -348,7 +347,6 @@
 				824A9E351724E45100C9BD79 /* RootViewController.m */,
 				2EEE8DEB19495FE9001106FE /* InitialVC.swift */,
 				2EEE8DEA19495FE8001106FE /* SwiftForce-Bridging-Header.h */,
-				2EA69C17194B5AA900DE086C /* SwiftForce-Bridging-Header1.h */,
 				2EA69C151949616A00DE086C /* RootVC.swift */,
 			);
 			path = Classes;
@@ -786,7 +784,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftForce/SwiftForce-Bridging-Header1.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftForce/Classes/SwiftForce-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
@@ -829,7 +827,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftForce/SwiftForce-Bridging-Header1.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftForce/Classes/SwiftForce-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
